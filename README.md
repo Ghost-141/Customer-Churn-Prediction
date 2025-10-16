@@ -5,7 +5,7 @@ This project uses a dataset to predict customer churn using different classficai
 ## Dataset
 
 - Source file: [`dataset.csv`](dataset.csv)
-- Target column: `Target_Churn`
+- Target column: **Target_Churn**
 - Feature includes demographics (age, gender), financial behavior (income, spend, average transaction size), engagement (purchases, returns, support contacts), sentiment (Satisfaction_Score), and marketing responses.
 
 ## Project Structure
@@ -58,8 +58,8 @@ From performance analysis we can see that XGBoost performs well comapared to oth
 
 ## Reasons Why XGBoost Performs Well
 
-- Uses decesion trees as weak learners and corrects utilizing previous models erros
+- Uses decesion trees as weak learners and corrects them utilizing previous models errors
 - Uses L1 and L2 regularization to prevent overfitting
-- User gradient boosting algorithm, sequentially improving models performance
+- User gradient boosting algorithm, sequentially improving models performance while training the model
 
 
